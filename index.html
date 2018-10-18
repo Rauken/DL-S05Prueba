@@ -2,9 +2,100 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <!-- Bootstrap v4.1.3 CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/master.css">
+    <title>Niño y Cancer</title>
   </head>
   <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-fixed-top">
+          <div class="navbar-header col-md-8">
+                <img src="images/logo.gif" alt="logo desafio latam" width="250" height="50" class="imagen">
+              <div class="navbar-text navbar-right links col-md-4">
+                <a href="index.html">Inicio</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="nosotros.html">Nosotros</a>
+              </div>
+          </div>
+      </nav>
 
+    <!--header-->
+    <header></header>
+
+    <!---Tarjetas--->
+    <div class="container mt-5">
+      <div class="row">
+
+        <div class="col-sm-6 col-md-4 border rounded p-1">
+          <div class="thumbnail">
+            <img src="images/1.jpg" alt="A volar con Sky" class="imagenes">
+            <div class="caption text-center">
+              <h3 class="blue">A volar con Sky</h3>
+              <p>La Fundación Niño y Cáncer quiere agradecer a SKY por su increible invitación. El Miércoles 4 de Octubre fuimos a volar en su nuevo avión A320neoSky.</p>
+              <p><a href="#" class="btn btn-default" role="button">Ver!</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 border rounded p-1">
+          <div class="thumbnail">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/kgLP_pUeAFA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <div class="caption text-center">
+              <h3 class="blue">Taller de Sky</h3>
+              <p>Proyecto recreativo y psicoterapéutico que se realiza desde el año 2002.
+                <br> Se traduce en "Una Terapia para el Alma".</p>
+              <p><a href="#" class="btn btn-default" role="button">Ver!</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 border rounded p-1">
+          <div class="thumbnail">
+            <img src="images/3.jpg" alt="Libro" class="imagen-libro" >
+            <div class="caption text-center">
+              <h3 class="blue">Ex paciente publica su libro: "Con tu apoyo, yo le gano al cáncer"</h3>
+              <p>¡Hola! Mi nombre es Marlene Zavala, tuve retinoblastoma bilateral, ya hace muchos años</p>
+              <p><a href="#" class="btn btn-default" role="button">Ver!</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!--Footer-->
+    <div class="container mt-5 center-block v-align">
+        <div class="col-md-3">
+          <h4>Dejanos un comentario!</h4>
+          <label>Tu nombre</label><br />
+          <input type="text" value="" size="30" /><br />
+          <label>Correo: </label><br />
+          <input type="text" value="" size="30" /><br />
+          <label >Mensaje</label><br />
+          <textarea rows="2" cols="32"></textarea><br />
+          <button type="button" name="button">Enviar!</button>
+
+        </div>
+        <div class="col-md-5">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13326.047386104729!2d-70.5368983!3d-33.3838082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x75682cb0ad81a60e!2sFundaci%C3%B3n+Ni%C3%B1o+y+Cancer!5e0!3m2!1ses!2scl!4v1539791303658" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-4 font-italic text-center">
+          <h4>Puedes contactar con nosotros al Telefono <b>22170821 - 22170811</b> <br> Tambien siguenos en nuestras redes sociales de Facebook y Twitter.</h4></br>
+          <a href="https://www.facebook.com/ninoycancer"><img src="images/facelogo.png" width="100" height="auto" class="p-3"></a>
+          <a href="https://twitter.com/ninoycancer"><img src="images/twitterlogo.png" width="100" height="auto" class="p-3"></a>
+        </div>
+      </div>
+
+    <!--JavaScript y JQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>

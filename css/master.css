@@ -1,0 +1,55 @@
+.navbar-header{
+  padding-left: 100px;
+  width: 100%;
+  background-color: white;
+}
+.links a:link{
+  font-size: 20px;
+  padding: 5px;
+}
+
+.blue {
+  color: blue;
+}
+
+body{
+  margin-top: 100px;
+  background-image: url("../images/texture.jpg");
+}
+
+.p-3{
+  padding: 3px;
+}
+
+.font-italic{
+  font-style: italic;
+}
+
+.mt-5{
+  margin-top: 5px;
+}
+header{
+  background-image: url("../images/banner.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 60vh;
+}
+.imagenes{
+  width: 90%;
+  height: auto;
+}
+.imagen-libro{
+  width: 68%;
+  height: auto;
+}
+@media (max-width: 780px) {
+  header{
+    height: 30vh;
+  }
+}
+@media (max-width: 384px) {
+  header{
+    height: 15vh;
+  }
+}
