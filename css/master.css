@@ -70,9 +70,17 @@ header{
   header{
     height: 30vh;
   }
+  .menu-noticias{
+    display: none;
+    visibility: hidden;
+  }
 }
 @media (max-width: 384px) {
   header{
     height: 15vh;
+  }
+  .menu-noticias{
+    display: none;
+    visibility: hidden;
   }
 }
